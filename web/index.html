@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣天氣預報</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script type="text/javascript" src="script/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body>
+<header>
+    <div><h1>三十六小時天氣預報</h1></div>
+</header>
+<main id="weather-main">
+    <div id="city-select">
+        <span id="city-map-cursor"></span>
+        <map name="city-map" id="city-map">
+            <img src="assets/map/map.png" alt="台灣地圖" usemap="#city-map" id="city-map-img" width="442" height="587">
+        </map>
+    </div>
+    <div id="weather-cities"></div>
+</main>
+<script type="text/javascript" src="script/data.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>

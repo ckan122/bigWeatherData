@@ -1,0 +1,8 @@
+/venv/
+/.env
+*.bat
+/test/
+/dist.spec
+/weather.json
+/dist/
+/build/
