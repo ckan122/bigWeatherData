@@ -6,8 +6,7 @@ import eel
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()
-# load_dotenv(dotenv_path=sys._MEIPASS + "/.env")
+load_dotenv(dotenv_path=sys._MEIPASS + "/.env")
 dataSrc = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?sort=time&Authorization=" \
           + environ.get('AUTHKEY')
 weather_data = None
